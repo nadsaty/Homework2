@@ -51,5 +51,11 @@ public class Main {
         //Разница:
         var weightDifference = boxerTwo - boxerOne;
         System.out.println("Разница в весе у бойцов - " + weightDifference + "кг");
+
+        //Разница в весе (Задача 7)
+        weightDifference = boxerTwo - boxerOne;
+        System.out.println("Разница в весе у бойцов - " + weightDifference + "кг (вычитание из большего веса меньшего)");
+        weightDifference = boxerTwo % boxerOne;
+        System.out.println("Разница в весе у бойцов - " + weightDifference + "кг (остаток из деления)");
         }
     }
