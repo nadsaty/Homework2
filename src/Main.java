@@ -64,5 +64,9 @@ public class Main {
         var howMany = hours / onePerson;
         System.out.println("Всего работников в компании - " + howMany + " человек");
 
+        //Сложение, вычитание, умножение, деление (Задание 8.2)
+        var morePeople = howMany + 94;
+        var moreHours = morePeople * onePerson;
+        System.out.println("Если в компании работает " + morePeople + " человек, то всего " + moreHours + " часов работы может быть поделено между сотрудниками.");
         }
     }
