@@ -57,5 +57,12 @@ public class Main {
         System.out.println("Разница в весе у бойцов - " + weightDifference + "кг (вычитание из большего веса меньшего)");
         weightDifference = boxerTwo % boxerOne;
         System.out.println("Разница в весе у бойцов - " + weightDifference + "кг (остаток из деления)");
+
+        //Сложение, вычитание, умножение, деление (Задание 8.1)
+        var hours = 640;
+        var onePerson = 8;
+        var howMany = hours / onePerson;
+        System.out.println("Всего работников в компании - " + howMany + " человек");
+
         }
     }
